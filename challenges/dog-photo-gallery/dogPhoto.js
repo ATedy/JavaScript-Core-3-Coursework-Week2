@@ -24,3 +24,5 @@ function dogPhotos() {
 }
 
 dogPhotoAdder.addEventListener("click", dogPhotos);
+
+window.onload = dogPhotos;
