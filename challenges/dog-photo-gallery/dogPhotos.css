@@ -1,0 +1,11 @@
+/* img {
+  width: 200px;
+  height: 150px;
+} */
+
+.ImageList {
+  list-style-type: none;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
