@@ -8,15 +8,11 @@ function dogPhotos() {
     })
     .then(function (data) {
       let dogImageList = document.createElement("li");
-      // dogImageList.className = "ImageList";
+
       let dogImage = document.createElement("img");
-      dogImageList.style.listStyleType = "none";
+      dogImageList.className = "ImageList";
       dogImage.style.width = "220px";
       dogImage.style.height = "200px";
-      dogImage.style.float = "left";
-      dogImage.style.marginRight = "8px";
-      dogImage.style.marginTop = "10px";
-
       dogImage.src = data.message;
       dogImageList.appendChild(dogImage);
       parentContainer.appendChild(dogImageList);
